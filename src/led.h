@@ -17,8 +17,8 @@ void clearLeds() {
   }
 }
 
-// Set the color of LED at position <ledIndex>
-void updateLed(uint8_t ledIndex, CRGB led) {
-    leds[ledIndex] = led;
+// Set the color of LED at position <index>
+void updateLed(uint8_t index, CRGB color) {
+    leds[index] = color;
     FastLED.show();
 }
