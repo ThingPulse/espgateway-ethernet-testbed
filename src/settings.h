@@ -10,6 +10,8 @@
 #define ETH_MDC_PIN     23
 #define ETH_MDIO_PIN    18
 
+#define ETH_TIMEOUT_MILLIS 10000
+
 // LED Settings
 #define ESP_LED_PIN 32
 #define LED_COUNT   4
